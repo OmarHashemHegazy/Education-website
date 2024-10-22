@@ -16,8 +16,8 @@
 
 
 <!-- SWIPER JS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -353,8 +353,8 @@
                               </div>
                             </article>
                           </div>
+                          <div class="swiper-pagination"></div>
                         </section>
-
 
 
 
@@ -365,21 +365,21 @@
 
 
 
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    // when window width is >= 600px
-    breakpoints: {
-      600: {
-        slidesPerView: 2,
-      }
-    }
-  });
-</script>
+                        <script>
+                          var swiper = new Swiper(".mySwiper", {
+                            slidesPerView: 1,
+                            spaceBetween: 30,
+                            pagination: {
+                              el: ".swiper-pagination",
+                              clickable: true,
+                            },
+                            //when window width is >= 600
+                            breakpoints: {
+                              600: {
+                                slidesPerView: 2
+                              }
+                            }
+                          });
+                        </script>
 </body>
 </html>
