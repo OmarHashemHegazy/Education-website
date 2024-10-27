@@ -71,6 +71,7 @@ h4 {
 
 a {
   color: var(--color-white);
+  font-weight: bold;
 }
 
 img {
